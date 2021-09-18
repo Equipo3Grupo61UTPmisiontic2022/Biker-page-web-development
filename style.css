@@ -43,20 +43,12 @@ div > h1 {
     border-radius: 50%;
 }
 
-div > img.motoIcon {
-    height: 80%;
-    width: 80%;
-}
 
 /* En estas etiquetas agruparemos los estilos dependiendo del rango de tamaño */
 
 /* // Small devices (landscape phones, 576px and 767px) */
 @media (min-width: 576px) {
     /* Si la imagen es la misma para este rango de tamaño, entonces, no se debe definir nuevamente */
-    div > img.motoIcon {
-        height: 25%;
-        width: 25%;
-    }
 }
 
 /* // Medium devices (tablets, 768px and 991px) */
@@ -65,10 +57,6 @@ div > img.motoIcon {
         /* Se cargaria imagen con medidas especificas para este rango de tamaño */
         /* background-image: url('miUrlMediumImage'); */
     /* } */
-    div > img.motoIcon {
-        height: 80%;
-        width: 80%;
-    }
 }
 
 /* // Large devices (desktops, 992px and 1199px) */
