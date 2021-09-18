@@ -13,8 +13,9 @@
   <!-- Mi hoja de estilos siempre debe estar despues de la de bootstrap, esto facilitara
   la construccion de la pagina y me permitira editar algunos elementos de bootstrap -->
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./motoIcon.png" type="image/x-icon">
 
-  <title>Bootstrap</title>
+  <title>Biker Web</title>
 </head>
 
 <body>
@@ -24,7 +25,14 @@
     <!-- fila superior -->
     <div class="row align-items-center header-top">
       <div class="col-8 col-sm-12 col-md-4">
-        <h1>Biker Web</h1>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-3">
+            <img class="motoIcon" src="./motoIcon.png" alt="Icono moto">
+          </div>
+          <div class="col-9">
+            <h1>Biker Web</h1>
+          </div>
+        </div>
       </div>
 
       <!-- navigation -->
@@ -56,7 +64,7 @@
           </button>
           <ol class="dropdown-menu">
             <!-- Dropdown menu links -->
-            <li><a class="dropdown-item" href="">Inicio</a></li>
+            <li><a class="dropdown-item" href="#">Inicio</a></li>
             <li><a class="dropdown-item" href="#">Servicios</a></li>
             <li><a class="dropdown-item" href="#">Noticias</a></li>
             <li><a class="dropdown-item" href="#">Nosotros</a></li>
@@ -112,7 +120,7 @@
         <div class="card" style="width: 18rem;">
           <img src="http://placeimg.com/200/200/nature" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Motos</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-outline-primary">Go somewhere</a>
@@ -124,7 +132,7 @@
         <div class="card" style="width: 18rem;">
           <img src="http://placeimg.com/200/200/nature" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Accesorios</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's
               content.</p>
@@ -136,7 +144,7 @@
         <div class="card" style="width: 18rem;">
           <img src="http://placeimg.com/200/200/nature" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Personalización</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's
               content.</p>
@@ -148,8 +156,10 @@
       </div>
 
     </section>
+
     <!-- Noticias -->
     <section></section>
+    
     <!-- Equipo -->
     <section></section>
 
