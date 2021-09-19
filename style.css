@@ -1,0 +1,40 @@
+body{
+    width: 1200px;
+    border: 1px solid green;
+}
+
+.Seccion-noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.Seccion-noticias__noticia{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    background-color: azure;
+}
+
+.articulo-noticia{
+    display: flex;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 595px;
+    height: 250px;
+    margin: 0px;
+    text-align: center;
+}
+
+.imagen-noticia > .imagen{
+    width: 255px;
+    
+}
+
+
+.contenido-noticia{
+    width: 255px;
+    
+}
