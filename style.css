@@ -1,0 +1,46 @@
+#seccion-servicios__titulo{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+
+}
+.seccion-servcios{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.servicio{
+    width: 400px;
+    height: 400px;
+    padding: 5px 5px 5px 5px
+
+}
+
+.servicio__imagen{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.servicio__titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.servicio__link{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.servicio__texto{
+    text-align: center;
+
+}
