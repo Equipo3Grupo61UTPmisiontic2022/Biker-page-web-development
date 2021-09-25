@@ -1,19 +1,13 @@
-body{
+/* body{
     width: 1200px;
     border: 1px solid green;
-}
+} */
 
-.Seccion-noticias{
+/* .Seccion-noticias{
     display: flex;
     flex-direction: column;
 }
 
-.Seccion-noticias__noticia{
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid red;
-    background-color: azure;
-}
 
 .articulo-noticia{
     display: flex;
@@ -37,4 +31,19 @@ body{
 .contenido-noticia{
     width: 255px;
     
+} */
+
+/* .borde{
+    border: 2px solid red;
+} */
+
+.imagen{
+    object-fit: cover;
+    height: 350px;
+    
+}
+
+
+.Seccion-noticias{
+    background-color: azure;
 }
